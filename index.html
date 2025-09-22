@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sample Lab Report</title>
+<style>
+  body{font-family:Arial,Helvetica,sans-serif;background:#f5f7fb;margin:0;padding:20px;color:#111}
+  .page{width:210mm;min-height:297mm;margin:0 auto;background:#fff;padding:20mm;box-shadow:0 0 12px rgba(0,0,0,.1);position:relative}
+  header{display:flex;justify-content:space-between;align-items:flex-start;border-bottom:2px solid #000;padding-bottom:10px}
+  .logo-box{width:110px;height:110px;border:1px solid #ccc;display:flex;align-items:center;justify-content:center;font-size:12px;color:#666}
+  .qr{width:110px;height:110px;border:1px dashed #aaa;display:flex;align-items:center;justify-content:center;font-size:12px;color:#666}
+  .patient-info{display:flex;justify-content:space-between;margin-top:12px;font-size:13px}
+  .patient-info .col{width:48%}
+  .section-title{background:#ddd;font-weight:bold;text-align:center;padding:6px;margin:18px 0 8px 0;border:1px solid #000}
+  table{width:100%;border-collapse:collapse;margin-bottom:12px;font-size:13px}
+  th,td{border:1px solid #000;padding:6px;text-align:left;vertical-align:top}
+  th{background:#f0f0f0}
+  .interpret{font-size:12px;margin:6px 0}
+  .signatures{display:flex;justify-content:space-between;margin-top:30px;font-size:12px}
+  .sign{text-align:center;width:19%}
+  footer{margin-top:20px;font-size:11px;text-align:center;color:#333;border-top:1px solid #000;padding-top:6px}
+  .disclaimer{margin-top:15px;font-size:11px;text-align:center;color:#a00;font-weight:bold}
+  .watermark{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%) rotate(-20deg);font-size:40px;color:rgba(200,0,0,0.08);font-weight:bold;pointer-events:none}
+  @media print{body{background:#fff}.page{box-shadow:none;margin:0}}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+<div style="text-align:center; margin:20px 0;">
+  <a href="https://www.chugtai-lab.com/" target="_blank">
+    <img src="https://static-media.dawaai.pk/img/chugtai-lab-new.png"
+         alt="Chughtai Lab Logo"
+         style="width:250px; height:auto; border:0;">
+  </a>
+</div>
+
+
+  </header>
+
+  <div class="patient-info">
+    <div class="col">
+      <p><b>Patient Name:</b> Hamza Abid</p>
+      <p><b>Father/Husband Name:</b> Abid Mehmood</p>
+      <p><b>Age/Sex:</b> 27 Year(s)/Male</p>
+      <p><b>Email:</b> -</p>
+      <p><b>NIC:</b> -</p>
+      <p><b>Phone:</b> 03160853612</p>
+      <p><b>Address:</b> Mohalla Police Choki, Haripur</p>
+    </div>
+    <div class="col">
+      <p><b>Registration Date:</b> 20-Nov-2017 5:25 pm</p>
+      <p><b>Registration Location:</b> Chughtai Lab Rawalpindi, Cantt</p>
+      <p><b>Destination Location:</b> Chughtai Lab Rawalpindi, Cantt</p>
+      <p><b>Reference:</b> Standard</p>
+      <p><b>Consultant:</b> .</p>
+      <p><b>Patient Number:</b> 2501-19-116232011</p>
+      <p><b>Case Number:</b> 2541-07-18</p>
+    </div>
+  </div>
+
+  <div class="section-title">Department of Chemical Pathology</div>
+
+  <table>
+    <thead>
+      <tr><th>Test</th><th>Normal Values</th><th>Examined</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Typhidot IgG</td>
+        <td>(See Below)</td>
+        <td>1.40</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="interpret">
+    <b>Negative &lt;0.9 | Borderline 0.9–1.1 | Positive &gt;1.1</b><br><br>
+    <b>RESULTS</b> — <b>CLINICAL INTERPRETATION</b><br>
+    IgM Positive Only — Acute Typhoid Fever<br>
+    IgM & IgG Positive — Acute Typhoid Fever (Middle Stage)<br>
+    IgG Positive Only — Reinfection or previous infection (may not be current typhoid)<br>
+    IgM & IgG Negative — Probably not typhoid
+    <br><br>
+  </div>
+
+  <table>
+    <thead>
+      <tr><th>Test</th><th>Normal Values</th><th>Examined</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Typhidot IgM</td>
+        <td>(See Below)</td>
+        <td>1.60</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="interpret">
+    <b>Negative &lt;0.80 | Borderline 0.80–1.20 | Positive &gt;1.20</b><br><br>
+    <b>RESULTS</b> — <b>CLINICAL INTERPRETATION</b><br>
+    IgM Positive Only — Acute Typhoid Fever<br>
+    IgM & IgG Positive — Acute Typhoid Fever (Middle Stage)<br>
+    IgG Positive Only — Reinfection or previous infection<br>
+    IgM & IgG Negative — Probably not typhoid
+    <br>
+  </div>
+
+  <footer>
+    Electronically verified report. No signatures necessary.<br>
+    Lab reports should be interpreted by a physician in correlation with clinical and radiologic findings.
+  </footer>
+
+  <div class="signatures">
+    <div class="sign"><b>Dr. Qamar Sultana</b><br>Consultant Microbiologist</div>
+    <div class="sign"><b>Dr. Zunaira Rathore</b><br>Consultant Histopathologist</div>
+    <div class="sign"><b>Dr. Samina Zaman</b><br>Consultant Pathologist</div>
+    <div class="sign"><b>Dr. Omar Chughtai</b><br>Diplomate American Board of Anatomic and Clinical Pathology</div>
+    <div class="sign"><b>Dr. A. S. Chughtai</b><br>Consultant Pathologist</div>
+  </div>
+
+  <br>
+  <br>
+    <div style="text-align:center; margin:20px 0;">
+    <button onclick="window.print()" 
+            style="background:#0b4bd8;color:#fff;
+                    border:none;padding:10px 20px;
+                    border-radius:6px;cursor:pointer;
+                    font-size:15px;font-weight:600;">
+        Print Report
+    </button>
+    </div>
+
+
+</div>
+</body>
+</html>
